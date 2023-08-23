@@ -27,10 +27,8 @@ Before you begin, make sure you have Python 3 installed on your system. If you d
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/saas-demo.git
+   git clone https://github.com/damevski/saas-demo.git
    ```
-
-   Replace `your-username` with your GitHub username.
 
 2. Navigate to the project directory:
 
