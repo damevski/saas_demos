@@ -1,6 +1,6 @@
 # SaaS Demo - CMSC 455 
 
-Welcome to the "saas-demos" repository! This project is designed to house all the demo code for the "CMSC 455 - Software as a Service" class at Virginia Commonwealth University (VCU). 
+Welcome to the "saas_demos" repository! This project is designed to house all the demo code for the "CMSC 455 - Software as a Service" class at Virginia Commonwealth University (VCU). 
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,7 +12,7 @@ Welcome to the "saas-demos" repository! This project is designed to house all th
 
 ## Introduction
 
-In the "saas-demos" repository, you will find a collection of code samples, examples, and demonstrations that are directly related to the topics covered in the CMSC 455 class. The purpose of this repository is to provide students with hands-on experience and practical implementations of concepts discussed during the course.
+In the "saas_demos" repository, you will find a collection of code samples, examples, and demonstrations that are directly related to the topics covered in the CMSC 455 class. The purpose of this repository is to provide students with hands-on experience and practical implementations of concepts discussed during the course.
 
 ## Getting Started
 
@@ -27,13 +27,13 @@ Before you begin, make sure you have Python 3 installed on your system. If you d
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/damevski/saas-demos.git
+   git clone https://github.com/damevski/saas_demos.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd saas-demos
+   cd saas_demos
    ```
 
 3. Create a virtual environment (recommended) to isolate the project's dependencies:
