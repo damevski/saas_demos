@@ -1,14 +1,12 @@
 import requests
 
-BASE_URL = 'http://127.0.0.1:5000'
-
 def get_all_tasks():
     response = requests.get('http://127.0.0.1:5000/tasks')
     data = response.json()
     return data
 
 def get_task(task_id):
-    response = requests.get('http://127.0.0.1:5000/tasks/{task_id}')
+    response = requests.get(f'http://127.0.0.1:5000/tasks/{task_id}')
     data = response.json()
     return data
 
