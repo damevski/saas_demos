@@ -1,0 +1,24 @@
+https://developer.github.com/v4/explorer/
+
+
+{
+  repository(owner: "damevski", name: "slackataz") {
+    createdAt
+  }
+}
+
+
+{
+  user(login: "damevski") {
+    bio
+    repositories(last: 5, privacy: PUBLIC) {
+      edges {
+        node {
+          name
+          createdAt
+        }
+      }
+    }
+  }
+}
+
