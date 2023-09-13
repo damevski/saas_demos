@@ -43,5 +43,5 @@ def create_task():
     return jsonify({"message": "Task created", "task": {"id": new_task.id, "title": new_task.title, "done": new_task.done}}), 201
 
 if __name__ == '__main__':
-#    db.create_all()
+    #db.create_all()
     app.run(debug=True)
