@@ -1,0 +1,5 @@
+docker image ls
+vi playbook.yml 
+ansible-playbook playbook.yml
+docker image ls
+ansible-playbook save.yml

@@ -1,0 +1,9 @@
+version: '3.8'  
+
+services:
+  your-service-name: hello 
+    build:
+      context: .  
+      dockerfile: Dockerfile 
+    image: hello 
+

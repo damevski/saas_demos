@@ -1,0 +1,9 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: archive container image as a tarball
+      docker_image:
+        name: hello
+        archive_path: hellocontainer_v1_0.tar
+        source: local 
+        state: present
